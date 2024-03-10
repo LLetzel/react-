@@ -12,6 +12,7 @@ function Contato() {
     <div >
       <Menu />
     <Form id="form">
+      <h1>Contato</h1>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Email: </Form.Label> 
         <Form.Control type="email" placeholder="name@example.com" className="center"/>
@@ -19,12 +20,12 @@ function Contato() {
 
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Telefone </Form.Label> 
-        <Form.Control type="telefone" className="center"/>
+        <Form.Control type="telefone" placeholder="Seu número" className="center"/>
       </Form.Group>
       
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
         <Form.Label>Comentários:</Form.Label> 
-        <Form.Control placeholder="deixe seu comentário aqui" as="textarea" rows={3} />
+        <Form.Control placeholder="Deixe seu comentário aqui" as="textarea" rows={3} />
       </Form.Group>
       
       <button>Enviar</button>

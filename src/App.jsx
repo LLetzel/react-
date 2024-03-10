@@ -9,7 +9,7 @@ import './index.css'
 import Perfil from './pages/Perfil';
 import Badge from './pages/Badge';
 import Game from './pages/Game';
-import Button from 'react-bootstrap/Button';
+
 
 
 
@@ -32,5 +32,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App
